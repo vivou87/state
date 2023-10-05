@@ -1,21 +1,28 @@
 .App {
   text-align: center;
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  height: 100vh;
 }
 
-
-.container{
-  border:2px solid red;
-  margin:auto ;
-  width:250px;
+.container {
+  border: 2px solid rgb(98, 0, 255);
+  margin: auto;
+  width: 250px;
   height: 500px;
   border-radius: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: beige;
 }
-h3{
-  font-size: 25px;
+h3 {
+  font-size: 15px;
 }
-h1{
+h1 {
+  color: rgb(98, 0, 255);
+}
+button{
+  font-size: medium;
+  cursor: pointer;   transition: 0.3s ease-in-out;   transform: scale(1.02);
   color:red;
 }
